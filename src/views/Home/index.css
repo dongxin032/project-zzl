@@ -1,0 +1,30 @@
+.homePage {
+  height: 934px;
+  width: 100vw;
+  background: linear-gradient(to right, #D1F8FF, #FFDEF4);
+  position: relative;
+}
+
+.homePagePic {
+  width: 1201px;
+  height: 742px;
+  position: absolute;
+  top: 115px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url(../../static/home-pic.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.homePagePicBtn {
+  width: 178px;
+  height: 60px;
+  background-image: url(../../static/btn2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 358px;
+  left: 60px;
+  cursor: pointer;
+}

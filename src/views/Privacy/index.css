@@ -1,0 +1,15 @@
+.privacyPage {
+  width: 100vw;
+  background: linear-gradient(to right, #D1F8FF, #FFDEF4);
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.privacyPageContent {
+  width: 1199px;
+  background: #FFFFFF;
+  border-radius: 27px 27px 27px 27px;
+  opacity: 1;
+  margin: 60px auto 0;
+  padding: 40px 40px 40px 30px; 
+}

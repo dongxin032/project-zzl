@@ -1,0 +1,92 @@
+.aboutPage {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to right, #D1F8FF, #FFDEF4);
+  position: relative;
+}
+
+.aboutPageContent {
+  width: 1013px;
+  height: 452px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #FFF;
+  margin-top: 100px;
+  margin-left: 120px;
+  /* display: flex; */
+  padding-left: 26px;
+  padding-top: 27px;
+  padding-right: 344px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.aboutPageContent::after {
+  content: ' ';
+  width: 486.93px;
+  height: 452px;
+  background-image: url(../../static/about-pic-2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: -187px;
+  top: 0;
+}
+
+.aboutPageContentTitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 36px;
+}
+
+.aboutPageContentTitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 36px;
+}
+
+.aboutPageContentDesc {
+  font-size: 16px;
+  font-family: PingFang SC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #000000;
+  line-height: 24px;
+  margin-top: 21px;
+  height: 149px;
+}
+
+.aboutPageContentPic1 {
+  padding-left: 406px;
+  padding-top: 105px;
+  position: relative;
+}
+
+.aboutPageContentPic1Title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.aboutPageContentPic1Desc {
+  font-size: 14px;
+  font-family: PingFang SC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #000000;
+  line-height: 22px;
+  margin-bottom: 2px;
+}
+
+.aboutPageContentPic1::after {
+  content: ' ';
+  width: 389px;
+  height: 191px;
+  background-image: url(../../static/about-pic-1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  top: 0%;
+}
